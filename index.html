@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>calculator</title>
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <h1 class="sar">calculator</h1>
     <div class="cal">
-        <div id="screens"><input type="text" id="screen"></div>
-        <div class="btnr">
-            <button class="btn" onclick="callfunc(7)">7</button>
-            <button class="btn" onclick="callfunc(8)">8</button>
-            <button class="btn" onclick="callfunc(9)">9</button>
-            <button class="btn" onclick="callfunc('+')">+</button>
-        </div>
-        <div class="btnr">
-            <button class="btn" onclick="callfunc(4)">4</button>
-            <button class="btn" onclick="callfunc(5)">5</button>
-            <button class="btn" onclick="callfunc(6)">6</button>
-            <button class="btn" onclick="callfunc('-')">-</button>
-        </div> 
-        <div class="btnr">
-            <button class="btn" onclick="callfunc(1)">1</button>
-            <button class="btn" onclick="callfunc(2)">2</button>
-            <button class="btn" onclick="callfunc(3)">3</button>
-            <button class="btn" onclick="callfunc('*')">x</button>
-        </div>  
-        <div class="btnr">
-            <button class="btn" onclick="callfunclr()">CLR</button>
-            <button class="btn" onclick="callfunc(0)">0</button>
-            <button class="btn" onclick="callfunc('/')">/</button>
-            <button class="btn" onclick="callfunres()">=</button>
-        </div>
-    
-        </div>
-        <script src="script.js"></script>
-</body>
+      <div id="screens"><input type="text" id="screen" /></div>
+
+      <div class="btnr">
+        <button class="btn" onclick="callfunc(7)">7</button>
+        <button class="btn" onclick="callfunc(8)">8</button>
+        <button class="btn" onclick="callfunc(9)">9</button>
+        <button class="btn" onclick="callfunc('+')">+</button>
+      </div>
+      <div class="btnr">
+        <button class="btn" onclick="callfunc(4)">4</button>
+        <button class="btn" onclick="callfunc(5)">5</button>
+        <button class="btn" onclick="callfunc(6)">6</button>
+        <button class="btn" onclick="callfunc('-')">-</button>
+      </div>
+      <div class="btnr">
+        <button class="btn" onclick="callfunc(1)">1</button>
+        <button class="btn" onclick="callfunc(2)">2</button>
+        <button class="btn" onclick="callfunc(3)">3</button>
+        <button class="btn" onclick="callfunc('*')">x</button>
+      </div>
+      <div class="btnr">
+        <button class="btn" onclick="dele()">DEL</button>
+        <button class="btn" onclick="callfunc(0)">0</button>
+        <button class="btn" onclick="callfunc('.')">.</button>
+        <button class="btn" onclick="callfunc('/')">/</button>
+      
+      </div>
+      <div class="btnr delbut">
+        
+        <button class="btn" onclick="callfunclr()">CLR</button>
+      
+        <button class="btn" onclick="callfunres()">=</button>
+       
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>

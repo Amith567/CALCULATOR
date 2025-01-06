@@ -9,3 +9,6 @@ function callfunres(){
 function callfunclr(){
     document.getElementById("screen").value=""
 }
+function dele() {
+    const display = document.getElementById("screen");
+    display.value = display.value.slice(0, -1);}
